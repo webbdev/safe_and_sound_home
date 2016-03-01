@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safe & Sound Home</title>
+  <!--[if lt IE 9]> 
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+  <![endif]-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <!-- Header --> 
+  <header>
+    <div class="bar-header"></div>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo" width="150" height="79">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar"> 
+          <ul class="top_menu">
+            <li>
+              <span class="right-inner-addon"><input type="search" name="search" placeholder="Search our site...">
+              <i class="fa fa-search"></i></span></li>
+            <li><span class="numb">020 8445 8998</span></li>
+            <li class="link1"><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a></li>
+            <li class="link2"><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook fa-lg"></i></a></li>
+            <li class="link3"><a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin fa-lg"></i></a></li>
+            <li class="register"><a href="blank_page.html">Register</a></li>
+            <li class="pipe">|</li>
+            <li class="login"><a href="blank_page.html">Login</a></li>
+            <li><a href="#"><span id="ellipse">2</span><span class="price">&pound;139.98</span></a></li>
+          </ul>
+          <!-- for small devices -->
+          <nav class="top_menu-small">
+            <div>
+              <span class="right-inner-addon"><input type="search" name="search" placeholder="Search our site...">
+              <i class="fa fa-search"></i></span>
+            </div>
+            <div>
+              <a href="blank_page.html">Register</a> |
+              <a href="blank_page.html">Login</a>
+            </div>
+          </nav>
+          <!-- End -->
+        <div class="clear"></div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="blank_page.html">Home</a></li>
+          <li><a href="blank_page.html">Our Company</a></li>
+          <li><a href="blank_page.html">Courses</a></li>
+          <li><a href="blank_page.html">Products</a></li>
+          <li><a href="blank_page.html">E-Learning</a></li>
+          <li><a href="blank_page.html">News</a></li>
+          <li><a href="blank_page.html">Resources</a></li>
+          <li><a href="blank_page.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </header>
+  <!-- Section-1 -->
+  <section class="section-1">
+    <div class="container-fluid">
+      <div class="row box-1">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="text-box-1">
+            <h1>Professional training at <span>home</span> or <span>work</span></h1>
+            <p>HSA industry approved training course from Safe & Sound</p>     
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <form action="#">
+            <h3>Find a course</h3>
+              <span class="inner-right">
+                <i class="fa fa-angle-down"></i>
+                <input list="courses_list" type="text" name="course_type" id="course_type" autocomplete="off" placeholder="Select a course type" required>
+              </span>
+              <datalist id="courses_list">
+                <option value="Course 1">Course 1</option>
+                <option value="Course 2">Course 2</option>
+                <option value="Course 3">Course 3</option>
+              </datalist>
+              <span class="inner-right">
+                <i class="fa fa-angle-down"></i>
+                <input list="sectors_list" type="text" name="sector_type" id="sector_type" autocomplete="off" placeholder="Select your sector" required>
+              </span>
+              <datalist id="sectors_list">
+                <option value="Sector 1">Sector 1</option>
+                <option value="Sector 2">Sector 2</option>
+                <option value="Sector 3">Sector 3</option>
+              </datalist>
+              <span class="inner-left">
+                <button type="submit" class="btn_1" id="submit"><i class="fa fa-angle-right fa-lg"></i>Find Course</button>
+              </span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section-2 --> 
+  <section class="section-2"> 
+    <div class="container-fluid text-center">
+      <h1>Why Safe & Sound?</h1>
+      <div class="row">
+        <div class="col-md-4 col-sm-4">
+          <a href="blank_page.html" class="thumbnail">
+            <div class="pic1">
+            </div>
+            <p>HSE industry<br> approved courses</p>
+            <button class="btn_2"><i class="fa fa-angle-right fa-lg"></i> HSE Affilations</button>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <a href="blank_page.html" class="thumbnail">
+            <div class="pic2"></div>
+            <p>Fully qualified<br> instructors</p>
+            <button class="btn_2"><i class="fa fa-angle-right fa-lg"></i> Meet The Team</button>
+          </a>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <a href="blank_page.html" class="thumbnail">
+            <div class="pic3"></div>
+            <p>Specialists in<br> paediatric care</p>
+            <button class="btn_2"><i class="fa fa-angle-right fa-lg"></i> About Us</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section-3 -->
+  <section class="section-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-12 text-left rate1">
+          <span class="pass">90%</span>
+          <div class="rating">
+            <span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span> 
+          </div>
+        </div> 
+        <div class="col-md-4 col-sm-4 col-xs-12 text-left rate2">
+          <p>Pass rate on all our health & safety training courses. Idque Caesaris facere voluntate liceret: sese habere. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Vivamus sagittis lacus vel.
+          </p>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12 rate3">
+          <p class="rate3-pic"><img src="images/pass_rate.png" width="37" height="49" alt="#">2/3</p>
+          <p>Pass rate on all our health & safety training courses, haec quis possit intrepidus.</p>
+        </div>
+        <div class="col-md-3 col-sm-3 col-xs-12 rate3">
+          <p class="rate3-pic"><img src="images/pass_rate.png" width="37" height="49" alt="#">97%</p>
+          <p>Pass rate on all our health & safety training courses Gallia est est omnis divisa.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row text-center">
+        <div class="col-md-12">
+          <a href="blank_page.html" id="btn_3" class="btn"><i class="fa fa-angle-right fa-lg"></i> View Our Testimonials</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section-4 -->
+  <section class="section-4">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 safety_products">
+          <h1>Health & safety products to <span>support</span> your <span>training</span></h1>
+          <p>Inmensae subtilitatis, obscuris et malesuada fames. Quo usque tandem abutere, Catilina, patientia nostra? Mercedem aut num mos unde unde extricat, amaras abillo dolor temporare, ab est sed ist immemorabili.</p>
+          <a href="blank_page.html" id="btn_4" class="btn"><i class="fa fa-angle-right fa-lg"></i> View Training Products</a>
+        </div>
+        <div class="col-md-6 col-sm-6" id="aid_kit">
+          <img src="images/aid_kit-crop.png" class="img-responsive" alt="First aid kit" width="346" height="456">
+        </div>
+        <!-- For small devices -->
+        <div class="col-md-6 col-sm-6" id="aid_kit-small">
+          <img src="images/aid_kit.png" class="img-responsive" alt="First aid kit" width="346" height="506">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section-5 -->
+  <section class="section-5">
+  <div id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6 charity">
+              <h1>Proud supporters of the <span>London Air Ambulance</span></h1>
+              <p>Inmensae subtilitatis, obscuris et malesuada fames. Quo usque tandem abutere, Catilina, patientia nostra? Mercedem aut num mos unde unde extricat, amaras abillo dolor temporare, ab est sed ist immemorabili.</p>
+              <a href="blank_page.html" id="btn_5a" class="btn"><i class="fa fa-angle-right fa-lg"></i> Support Our Charity</a>
+            </div>
+          </div>
+        </div>     
+      </div>
+      <div class="item">
+          <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6 charity">
+              <h1>Proud supporters of the <span>London Air Ambulance</span></h1>
+              <p>Inmensae subtilitatis, obscuris et malesuada fames. Quo usque tandem abutere, Catilina, patientia nostra? Mercedem aut num mos unde unde extricat, amaras abillo dolor temporare, ab est sed ist immemorabili.</p>
+              <a href="blank_page.html" id="btn_5b" class="btn"><i class="fa fa-angle-right fa-lg"></i> Support Our Charity</a>
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </section>
+  <!-- Section-6 -->
+  <section class="section-6">
+    <div class="layer-helicopter">
+      <img src="images/helicopters_part.png" width="168" height="45" alt="#">
+    </div>
+    <div class="container-fluid text-center">
+      <h1>You're in <span>safe</span> hands</h1>
+      <p>Inmensae subtilitatis, obscuris et malesuada fames. Quo usque tandem<br> abutere, Catilina, patientia nostra? Mercedem aut num mos unde unde<br> extricat, amaras abillo dolor temporare, ab est sed ist immemorabili.</p>
+      <div class="row">
+        <div class="col-md-3 col-sm-3">
+          <div class="pic6-a">
+            <a target="_blank" href="http://www.hse.gov.uk/">
+              <img src="images/logo1.png" alt="Logo" width="81" height="81">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <div class="pic6-a" style="padding-right:38px;">
+            <a target="_blank" href="http://www.aofa.org/">
+              <img src="images/logo2.png" alt="Logo" width="118" height="82">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <div class="pic6-b">
+            <a target="_blank" href="http://www.cieh.org/">
+              <img src="images/logo3.png" alt="Logo" width="195" height="66">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <div class="pic6-b" style="padding-left:18px;">
+            <a target="_blank" href="http://www.cache.org.uk/">
+              <img src="images/logo4.png" alt="Logo" width="64" height="81">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bar-footer">
+      <div class="bar-footer-blue"></div>
+    </div> 
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container-fluid bg-footer">
+      <div class="row" style="padding:0;">
+        <div class="col-md-3 col-sm-3">
+          <h3>Our Company</h3>
+          <ul class="company">
+            <li><a href="blank_page.html">Our Company</a></li>
+            <li><a href="blank_page.html">Meet The Team</a></li>
+            <li><a href="blank_page.html">Accredited</a></li>
+            <li><a href="blank_page.html">Testimonials</a></li>
+            <li><a href="blank_page.html">Join Our Team</a></li>
+          </ul>
+          <h3>Courses</h3>
+          <ul class="courses">
+            <li><a href="blank_page.html">First Aid</a></li>
+            <li><a href="blank_page.html">Food and Drink Safety</a></li>
+            <li><a href="blank_page.html">Health and Safety</a></li>
+            <li><a href="blank_page.html">Manual Handing</a></li>
+            <li><a href="blank_page.html">Fire Training</a></li>
+            <li><a href="blank_page.html">Safeguarding</a></li>
+            <li><a href="blank_page.html">Child Care</a></li>
+            <li><a href="blank_page.html">Social Care and Dementia</a></li>
+          </ul>   
+        </div>
+        <div class="col-md-3 col-sm-3" style="border-left:1px solid #646464;">
+          <h3>Sectors</h3>
+          <ul class="sectors">
+            <li><a href="blank_page.html">Corporate</a></li>
+            <li><a href="blank_page.html">General</a></li>
+            <li><a href="blank_page.html">Health Professionals</a></li>
+            <li><a href="blank_page.html">Parents & Childcarers</a></li>
+            <li><a href="blank_page.html">Scholls & Nuseries</a></li>
+            <li><a href="blank_page.html">Social Care</a></li>
+            <li><a href="blank_page.html">Sports &Lesuire</a></li>
+          </ul>
+          <h3>Products</h3>
+          <ul class="footer_products">
+            <li><a href="blank_page.html">Category 1</a></li>
+            <li><a href="blank_page.html">Category 2</a></li>
+            <li><a href="blank_page.html">Category 3</a></li>
+            <li><a href="blank_page.html">Category 4</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-3" style="border-left:1px solid #646464;">
+          <h3>E-Learning</h3>
+          <ul class="elearning">
+            <li><a href="blank_page.html">E-Learning Courses</a></li>
+          </ul>
+          <h3>News</h3>
+          <ul class="news">
+            <li><a href="blank_page.html">News Articles</a></li>
+          </ul>
+          <h3>Safe & Sound</h3>
+          <ul class="safe">
+            <li><a href="blank_page.html">Delivery Information</a></li>
+          </ul>
+          <h3>FAQs</h3>
+          <ul class="faqs">
+            <li><a href="blank_page.html">FAQ Guides</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-sm-3" style="border-left:1px solid #646464;">
+          <h3>Contact Us</h3>
+          <ul class="contact">
+            <li>T: 020 8445 8998</li>
+            <li>E: <a href="mailto:info@safe&sound.uk.net">info@safe&sound.uk.net</a></li>
+          </ul>
+          <ul class="address">
+            <li>P.O. Box</li>
+            <li>Address Line 1</li>
+            <li>Address Line 2</li>
+            <li>Town/City</li>
+            <li>County</li>
+            <li>Postcode</li>
+          </ul>
+          <h6>Register Number:</h6>
+          <ul>
+            <li>0123456789</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-right">
+          <div class="social">
+            <ul>
+              <li><a target="_blank" href="https://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+              <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook" style="padding:6px 10px;"></i></a></li>
+              <li><a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bottom" style="border-top:1px solid #646464;">
+      <div class="row">
+        <div class="col-md-2 col-sm-2">
+          <p>Website By WDL</p>
+        </div>
+        <div class="col-md-10 col-sm-10 text-right">
+          <nav class="footer_menu">
+            <a href="blank_page.html">Terms & Conditions</a> |
+            <a href="blank_page.html">Privacy Policy</a> |
+            <a href="blank_page.html">Cookie Policy</a> |
+            <span>&copy; Safe & Sound 2015</span>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
