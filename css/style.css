@@ -47,7 +47,7 @@ a,
 a:hover, 
 a:active, 
 a:focus {
-  outline: 0;
+  outline: none;
 }
 
 /**
