@@ -43,6 +43,13 @@ ul {
   padding: 0; 
 }
 
+a,
+a:hover, 
+a:active, 
+a:focus {
+  outline: 0;
+}
+
 /**
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
